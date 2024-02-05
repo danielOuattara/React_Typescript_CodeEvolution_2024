@@ -12,6 +12,7 @@ root.render(
   <React.StrictMode>
     <AppFunction />
     <hr />
+
     <AppClass />
   </React.StrictMode>,
 );
