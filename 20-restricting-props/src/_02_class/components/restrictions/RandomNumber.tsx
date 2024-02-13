@@ -11,7 +11,7 @@ type TypePositive = TypeRandomNumber & {
 };
 type TypeNegative = TypeRandomNumber & {
   isPositive?: never;
-  isNegative?: boolean;
+  isNegative: boolean;
   isZero?: never;
 };
 type TypeZero = TypeRandomNumber & {
